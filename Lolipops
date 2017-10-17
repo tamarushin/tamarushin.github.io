@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Creating a Lolipop</title>
+  </head>
+  <body>
+    <h1>Custom made Lolipops</h1>
+  </body>
+  <script>
+    var user = prompt('What is your favorite flavor?');
+    console.log(user);
+
+    alert('OH! I see you like the flavor ' + user + ', Now you are going to pick a color.');
+
+    var answer = prompt('Please answer with Y or N. You like red?');
+    var answer = prompt('Please answer with Y or N. You like blue?');
+    var answer = prompt('Please answer with Y or N. You like Purple?');
+    var answer = prompt('Please answer with Y or N. You like Orange?');
+
+
+    console.log('users answer:' + answer);
+
+    if (answer === 'Y') {
+    alert('YUM! Me too');} else{alert('Yuck! Me neither.')}
+    }
+  </script>
+</html>
